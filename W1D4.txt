@@ -1,0 +1,15 @@
+
+Composition:
+  A schools have students:
+  Students can't really exist outside a school
+
+  School - class
+  Student - subclass
+
+Aggregation:
+  In a school with classrooms:
+  A classroom can have students, but a student can exist outside a classroom.
+
+  School class
+  classroom subclass
+
