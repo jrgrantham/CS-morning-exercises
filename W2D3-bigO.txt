@@ -1,0 +1,27 @@
+def foo(n):
+  sq_root = int(math.sqrt(n))   O(1)
+  for i in range(0, sq_root):   O(n)
+    print(i)                    O(1)
+
+= O(n)
+
+def bar(x):
+  sum = 0                         O(1)
+  for i in range(0, 1463):        O(1)
+    i += sum                      O(1)
+    for j in range(0, x):         O(n)
+      for k in range(x, x + 15):  O(1)
+        sum += 1                  O(1)
+
+= O(n)
+
+
+def baz(array):
+  print(array[1])               O(1)
+  midpoint = len(array) // 2    O(1)
+  for i in range(0, midpoint):  O(n)
+    print(array[i])             O(1)
+  for _ in range(1000):         O(1)
+    print('hi')                 O(1)
+
+= O(n)
